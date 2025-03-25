@@ -5,7 +5,7 @@
     --primary-hover: #4f46e5;
     --secondary: #f43f5e;
       background: rgb(238,174,202);
-      background: radial-gradient(circle, rgba(238,174,202,1) 26%, rgba(148,187,233,1) 100%);
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     --foreground: #0f172a;
     --muted: #64748b;
     --muted-foreground: #94a3b8;
@@ -162,7 +162,7 @@
     height: 4rem;
     border-bottom: 1px solid var(--border);
     background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 26%, rgba(148,187,233,1) 100%);
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     backdrop-filter: blur(8px);
   }
   
